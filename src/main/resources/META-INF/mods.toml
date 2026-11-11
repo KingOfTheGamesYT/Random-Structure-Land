@@ -25,17 +25,16 @@ Randomnizes all structures in Minecraft
 '''
 
 # Base Forge
-[[dependencies.random_structure_land]]
-    modId="forge"
-    mandatory=true
-    versionRange="[36,)"
-    ordering="NONE"
-    side="BOTH"
+[[dependencies.random_structure_land]] #optional
+modId="forge" #mandatory
+mandatory=true #mandatory
+versionRange="${forge_version_range}" #mandatory
+ordering="NONE"
+side="BOTH"
 
-# Base Minecraft
 [[dependencies.random_structure_land]]
-    modId="minecraft"
-    mandatory=true
-versionRange="[1.16.5,1.17]"
-    ordering="NONE"
-    side="BOTH"
+modId="minecraft"
+mandatory=true
+versionRange="${minecraft_version_range}"
+ordering="NONE"
+side="BOTH"
