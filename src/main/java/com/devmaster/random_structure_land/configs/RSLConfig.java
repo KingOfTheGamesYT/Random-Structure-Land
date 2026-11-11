@@ -1,11 +1,6 @@
 package com.devmaster.random_structure_land.configs;
 
-import net.minecraftforge.common.BiomeDictionary;
 import net.minecraftforge.common.ForgeConfigSpec;
-
-import static net.minecraftforge.common.BiomeDictionary.Type.*;
-
-import java.util.Arrays;
 
 public class RSLConfig {
     public static ForgeConfigSpec.IntValue StructureSpawnChance;
